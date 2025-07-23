@@ -1,0 +1,36 @@
+.home {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100vh;
+  background: linear-gradient(to right, #00c6ff, #0072ff);
+  padding: 50px;
+  box-sizing: border-box;
+}
+
+.left-section,
+.right-section {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.center-section {
+  flex: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.doctor-img,
+.ecg-img,
+.mobile-img {
+  max-width: 100%;
+  height: auto;
+}
+
+.ecg-img {
+  width: 100%;
+  max-height: 300px;
+}
